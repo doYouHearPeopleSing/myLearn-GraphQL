@@ -1,9 +1,9 @@
 /*
- * @Author: your name
+ * @Author: Dongshufeng
  * @Date: 2020-12-05 15:43:09
- * @LastEditTime: 2020-12-05 16:17:09
+ * @LastEditTime: 2020-12-05 18:42:49
  * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @Description: 检验 graphql package 下载情况
  * @FilePath: \myLearn-GraphQL\hello.js
  */
 

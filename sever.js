@@ -1,9 +1,9 @@
 /*
- * @Author: your name
+ * @Author: Dongshufeng
  * @Date: 2020-12-05 16:57:45
- * @LastEditTime: 2020-12-05 18:28:27
+ * @LastEditTime: 2020-12-05 18:43:09
  * @LastEditors: Please set LastEditors
- * @Description: In User Settings Edit
+ * @Description: GraphQL express test
  * @FilePath: \myLearn-GraphQL\sever.js
  */
 
@@ -13,8 +13,6 @@ const { buildSchema } = require('graphql')
 
 /**
  * @description: 定义schema、查询和类型
- * @param {*}
- * @return {*}
  */
 const schema = buildSchema(`
   type Account {
@@ -34,9 +32,7 @@ const schema = buildSchema(`
 
 
 /**
- * @description: 定义
- * @param {*}
- * @return {*}
+ * @description: 返回值类型与 schema 要对应
  */
 const root = { 
     hello: () => 'Hello world!' ,
@@ -57,11 +53,11 @@ app.use('/graphql', graphqlHTTP({
   schema: schema,
   rootValue: root,
   graphiql: true,
+
 /**
- * @description: 
- * @param {*}
- * graphiql : 是否启用调试
+ * graphiql : bool 是否启用调试
  */  
+
 }))
 
 
