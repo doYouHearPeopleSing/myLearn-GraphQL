@@ -1,0 +1,22 @@
+{
+  "name": "mylearn-graphql",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doYouHearPeopleSing/myLearn-GraphQL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doYouHearPeopleSing/myLearn-GraphQL/issues"
+  },
+  "homepage": "https://github.com/doYouHearPeopleSing/myLearn-GraphQL#readme",
+  "dependencies": {
+    "graphql": "^15.4.0"
+  }
+}
