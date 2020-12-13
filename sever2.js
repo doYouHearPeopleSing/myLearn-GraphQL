@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-07 13:55:28
- * @LastEditTime: 2020-12-07 15:29:58
+ * @LastEditTime: 2020-12-07 15:39:57
  * @LastEditors: Please set LastEditors
  * @Description:  
  * Practice about ARGUMENTS and TYPE
@@ -22,6 +22,7 @@ const schema = buildSchema(`
         name : String
         age : Int
         sex : String
+        fuck : String
         grade( major : String ) : Int
     }
     type Query {
@@ -52,6 +53,7 @@ const root = {
         const name = studentName
         const sex = 'man'
         const age = 18
+        const fuck = 'yes'
         const grade = ({ major }) => {
             switch( major ) {
                 case 'Chinese' : return 60 
@@ -63,6 +65,7 @@ const root = {
             name,
             sex,
             age,
+            fuck,
             grade
         }
     }
